@@ -1,0 +1,22 @@
+# Generated data — never commit
+data/
+data_large/
+
+# Pipeline output — never commit
+output/
+
+# SQLite database and encryption key — KEEP PRIVATE
+*.db
+*.key
+.ledger.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
